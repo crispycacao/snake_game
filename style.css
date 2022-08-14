@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#game-board{
+    background-color: #CCC;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr); /* repeat을 이용하여 grid에 20개의 행과 열을 만든다 */
+    grid-template-columns: repeat(20, 1fr); /* fr이란 남은공간의 크기를 할당한다. 20개이므로 남은공간의 1/20 크기를 갖게된다. */
+    width: 100vmin; /* vmin은 가로와 세로중 더 좁은 길이의 1/100에 해당하는 단위 */
+    height: 100vmin;
+}
+
+.snake{
+    background-color: greenyellow;
+    border: .25vmin solid black;
+}
+
+.food{
+    background-color: orangered;
+    border: .25vmin solid black;
+}
