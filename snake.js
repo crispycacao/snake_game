@@ -1,6 +1,7 @@
 import { getDirection } from "./input.js";
 
-
+//web game
+//snake game
 let newBody = 0;
 let addBodyAmount = 1;
 let a = true;
