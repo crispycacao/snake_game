@@ -7,6 +7,7 @@ let addBodyAmount = 1;
 let a = true;
 
 
+
 export const SNAKE_SPEED = 5; // 뱀의 속도
 
 export const snakeBody = [ // 뱀 몸의 좌표를 저장하는 리스트
