@@ -1,11 +1,9 @@
 import { getDirection } from "./input.js";
 
-//web game
-//snake game
+
 let newBody = 0;
 let addBodyAmount = 1;
 let a = true;
-
 
 
 export const SNAKE_SPEED = 5; // 뱀의 속도
